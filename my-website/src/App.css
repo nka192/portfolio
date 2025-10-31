@@ -1,0 +1,57 @@
+/*Background Pattern*/
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 100px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 100px
+    );
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 100px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 100px
+    );
+  background-size: cover;
+}
+
+.projects {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.projects-title {
+  padding: 40px;
+}
